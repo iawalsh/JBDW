@@ -57,11 +57,11 @@ income_x2 = 2010
 income_slope5 = calcSlope(income_x1, income_y1, income_x2, income_y2)
 
 print("Income Slopes")
-print(income_slope1)
-print(income_slope2)
-print(income_slope3)
-print(income_slope4)
-print(income_slope5)
+print("1990-1995:",income_slope1)
+print("1995-2000:",income_slope2)
+print("2000-2004:",income_slope3)
+print("2004-2006:",income_slope4)
+print("2006-2010:",income_slope5)
     
 # Calculating slopes for the High School Drop Rate Dataset
 drop_y1 = df_drop.loc[df_drop['Date'] == '1990-12-31']['Total'].values 
@@ -100,11 +100,11 @@ drop_x2 = 2010
 drop_slope5 = calcSlope(drop_x1, drop_y1, drop_x2, drop_y2)
 
 print("Dropout Rate Slopes")
-print(drop_slope1)
-print(drop_slope2)
-print(drop_slope3)
-print(drop_slope4)
-print(drop_slope5)
+print("1990-1995:",drop_slope1)
+print("1995-2000:",drop_slope2)
+print("2000-2004:",drop_slope3)
+print("2004-2006:",drop_slope4)
+print("2006-2010:",drop_slope5)
     
 # Calculating slopes for the High School Employment Dataset
 employment_y1 = df_employment.loc[df_employment['Date'] == '1990-12-31']['Total Employed'].values 
@@ -143,11 +143,11 @@ employment_x2 = 2010
 employment_slope5 = calcSlope(employment_x1, employment_y1, employment_x2, employment_y2)
     
 print("High School Employment Slopes")
-print(employment_slope1) 
-print(employment_slope2) 
-print(employment_slope3) 
-print(employment_slope4) 
-print(employment_slope5) 
+print("1990-1995:",employment_slope1)
+print("1995-2000:",employment_slope2)
+print("2000-2004:",employment_slope3)
+print("2004-2006:",employment_slope4)
+print("2006-2010:",employment_slope5)
 
 
 
